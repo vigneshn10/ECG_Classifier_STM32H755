@@ -1,0 +1,17 @@
+# Old raw CubeIDE project folders
+ECG_TINY/
+ECG_model_tf/
+ecg_classification/
+NUCLEO-H755ZI-Q/
+sine/
+sine_1/
+mxAI*/
+edgeai/
+.metadata/
+
+# macOS
+.DS_Store
+Icon
+
+# IDE
+*.launch
