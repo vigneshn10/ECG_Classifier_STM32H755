@@ -129,17 +129,6 @@ The firmware loops every 5 seconds, running inference on the hardcoded test samp
 
 ---
 
-## Regenerating the Model (Optional)
-
-If you retrain the Keras model and need to update the C files in `model/`:
-
-1. Open **STM32CubeIDE → CubeMX** (double-click `.ioc`)
-2. Go to **Software Packs → X-CUBE-AI → Analyze**
-3. Load your updated `.keras` or `.tflite` model
-4. Click **Generate Code** — the `model/network*.c/h` files will be regenerated automatically
-
----
-
 ## Preprocessing Details
 
 Before inference, each 180-sample window is normalized:
