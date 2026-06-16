@@ -18,8 +18,7 @@ The classifier runs on the **CM7 core**. CM4 is held in stop mode during normal 
 
 ### Board Schematic
 
-![NUCLEO-144 Series Schematic](images/Nucleo 244 schematics.jpg)
-
+![NUCLEO-144 Series Schematic](images/Nucleo%20244%20schematics.jpg)
 
 ---
 
