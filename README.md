@@ -1,4 +1,4 @@
-# ECG Arrhythmia Classifier — STM32H755ZI-Q Edge AI
+# ECG Arrhythmia Classifier STM32H755ZI-Q Edge AI
 
 Deploying a tiny 1D-CNN ECG arrhythmia classifier on the **NUCLEO-H755ZI-Q** (dual-core STM32H755ZI, Cortex-M7 + M4) using **ST X-CUBE-AI**. The model classifies 180-sample ECG windows into 5 AAMI heartbeat categories in real time, running entirely on-chip with no cloud dependency.
 
@@ -18,9 +18,8 @@ The classifier runs on the **CM7 core**. CM4 is held in stop mode during normal 
 
 ### Board Schematic
 
-![NUCLEO-H755ZI-Q Schematic](images/NUCLEO-H755ZI-Q_schematic.png)
+![NUCLEO-144 Series Schematic](images/Nucleo 244 schematics.jpg)
 
-> Full schematic (all 11 pages): [`../Other_files/NUCLEO-H755ZI-Q_schematic.pdf`](../Other_files/NUCLEO-H755ZI-Q_schematic.pdf)
 
 ---
 
